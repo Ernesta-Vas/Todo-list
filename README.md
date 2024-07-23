@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Проект на Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Используемые технологии
 
-Currently, two official plugins are available:
+- **Vite**: Быстрый инструмент сборки для современных веб-проектов.
+- **React**: Библиотека JavaScript для создания пользовательских интерфейсов.
+- **TypeScript**: Типизированное надмножество JavaScript, компилируемое в чистый JavaScript.
+- **Emotion**: Библиотека для стилизации компонентов.
+- **Material-UI**: Библиотека компонентов для React.
+- **Axios**: Библиотека для выполнения HTTP-запросов.
+- **React Router**: Библиотека для маршрутизации в React.
+- **React Toastify**: Библиотека для уведомлений.
+- **JSON Server**: Инструмент для создания REST API из файла JSON.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Установка и запуск
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```bash
+cd Todo-list
+npm install
+npm run dev
+npm run start
+npm run build
+npm run preview
