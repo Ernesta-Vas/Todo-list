@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import { toastConfig } from "./const/toastConfig.ts";
 
 function App() {
+  console.log("test")
   return (
     <div className="app-container">
         <BoardProvider>
